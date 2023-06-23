@@ -9,13 +9,13 @@ import UIImage2 from '../images/ui-project-2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
-		category: 'Web Application',
+		title: 'Site Web Ecole nouvelle géneration',
+		category: 'Site Web bootstrap',
 		img: WebImage2,
 		ProjectHeader: {
-			title: 'Project Management UI - From Context',
+			title: 'Site Web Ecole EGI',
 			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			tags: 'Bootstrap / FrontEnd',
 		},
 	},
 	{
