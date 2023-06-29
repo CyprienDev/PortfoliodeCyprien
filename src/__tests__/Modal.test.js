@@ -10,6 +10,11 @@ function setupUserEvent(jsx) {
 	};
 }
 
+
+
+<HireMeModal onRequest={handleCloseModal} />
+
+
 test('modal shows the children and a close button', async () => {
 	const { user } = setupUserEvent(<HireMeModal />);
 

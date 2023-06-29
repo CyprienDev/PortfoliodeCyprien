@@ -32,6 +32,7 @@ function App() {
 								element={<ProjectSingle />}
 							/>
 
+
 							<Route path="about" element={<About />} />
 							<Route path="ecole" element={<Ecole />} />
 							<Route path="entreprise" element={<Entreprise />} />
