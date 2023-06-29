@@ -43,7 +43,7 @@ export const aboutEntrepriseData = {
             '\n' +
             'Les objectifs de Safran incluent l\'innovation technologique, l\'excellence opérationnelle, la durabilité environnementale, la croissance rentable, la sécurité des produits et des opérations, ainsi que le développement des talents.',
 
-        ProjectDetailsHeading: 'Challenge',
+        ProjectDetailsHeading: 'A propos de Safran :',
         ProjectDetails: [
             {
                 id: 1,

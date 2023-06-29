@@ -1,13 +1,11 @@
 import {FiFacebook, FiInstagram, FiLinkedin, FiTwitter, FiYoutube} from "react-icons/fi";
-import Image1 from "../images/ui-project-1.jpg";
-import Image2 from "../images/web-project-2.jpg";
-import Image3 from "../images/mobile-project-2.jpg";
+import Image1 from "../images/utec_logo.jpg";
+import Image2 from "../images/utec_exterieur.jpg";
+import Image3 from "../images/utec_exterieur_cantine.jpg";
 
 export const aboutEcoleData = {
     EcoleHeader: {
-        title: 'Project Management UI',
-        publishDate: 'Jul 26, 2021',
-        tags: 'UI / Frontend',
+        title: "L'\nUTEC"
     },
     EcoleImages: [
         {
@@ -30,58 +28,43 @@ export const aboutEcoleData = {
         ClientHeading: 'Client',
         CompanyInfo: [
             {
-                id: 1,
-                title: 'Nom',
-                details: 'EGI School',
-            },
-            {
                 id: 2,
-                title: 'Services',
-                details: 'Formation',
+                title: 'Formations',
+                details: 'Formation Avant Bac et Bac, BTS et Bac+2, Bachelor, Licence Pro, DCG, Bac+3, MBA, Bac+5 ',
             },
             {
                 id: 3,
                 title: 'Site',
-                details: 'https://egi-school.fr',
+                details: 'https://www.utec77.fr',
             },
         ],
-        ObjectivesHeading: 'Objective',
-        ObjectivesDetails:
-            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-        Technologies: [
-            {
-                title: 'Tools & Technologies',
-                techs: [
-                    'HTML',
-                    'CSS',
-                    'JavaScript',
-                    'Vue.js',
-                    'TailwindCSS',
-                    'AdobeXD',
-                ],
-            },
-        ],
-        ProjectDetailsHeading: 'Challenge',
+        ProjectDetailsHeading: 'A propos de L\'UTEC :',
         ProjectDetails: [
             {
                 id: 1,
                 details:
-                    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+                    'L\'UTEC est une école de la CCI Seine-et-Marne, pluridisciplinaire, multi-niveaux, au service des jeunes, des familles et des entreprises, qui forme chaque année prés de 2000 jeunes en apprentissage en relation étroite avec ses 1500 partenaires.',
             },
             {
                 id: 2,
                 details:
-                    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+                    'Avec près de 40 ans d’expérience dans l’apprentissage, elle est organisée autour d’une équipe pédagogique composée essentiellement de professionnels animés par une même vocation : faire partager la passion de leur métier.',
             },
             {
                 id: 3,
                 details:
-                    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+                    'L\'UTEC propose des Formation en Apprentissage pour les jeunes de 16 à 29 ans, des Formations continue pour des salariés, des createurs d\'entreprise, ainsi que des demandeurs d\'emploi.'
             },
             {
                 id: 4,
                 details:
-                    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+                    'Egalement L\'UTEC dispose de 4 sites dont Avon - Fontainebleau, Emerainville - Marne-la-Vallée, Melun, Provins. Leurs Batiments sont accesibles aux perssones en situation de handicap et plusieurs places de parking sont réservées.',
+            },
+            {
+                id:5,
+                details:
+                    'Pour Finir L’UTEC propose des formations diplômantes en apprentissage et en formation continue dans 9 pôles d’expertise dont la Comptabilité - Gestion - RH, Vente - Commerce - Accueil, Marketing, Service et Arts de la Table Barman, Tourisme - Hébergement, Cuisine - Traiteur - Pâtisserie, Informatique - Réseaux - Cybersécurité, Digital - Numérique - Fibre Optique, Management.'
+
             },
         ],
         SocialSharingHeading: 'Share This',

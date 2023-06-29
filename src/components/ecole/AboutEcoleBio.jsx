@@ -11,20 +11,6 @@ const AboutEcoleBio = () => {
 				<p className="font-general-medium text-left text-3xl sm:text-4xl font-bold text-primary-dark dark:text-primary-light mt-14 sm:mt-20 mb-7">
 					{aboutEcole.EcoleHeader.title}
 				</p>
-				<div className="flex">
-					<div className="flex items-center mr-10">
-						<FiClock className="text-lg text-ternary-dark dark:text-ternary-light" />
-						<span className="font-general-regular ml-2 leading-none text-primary-dark dark:text-primary-light">
-                            {aboutEcole.EcoleHeader.publishDate}
-                        </span>
-					</div>
-					<div className="flex items-center">
-						<FiTag className="text-lg text-ternary-dark dark:text-ternary-light" />
-						<span className="font-general-regular ml-2 leading-none text-primary-dark dark:text-primary-light">
-                            {aboutEcole.EcoleHeader.tags}
-                        </span>
-					</div>
-				</div>
 			</div>
 
 			<div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-10 mt-12">
@@ -76,28 +62,6 @@ const AboutEcoleBio = () => {
 							)}
 						</ul>
 					</div>
-					{/* Single project objectives */}
-					<div className="mb-7">
-						<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-							{aboutEcole.EcoleInfo.ObjectivesHeading}
-						</p>
-						<p className="font-general-regular text-primary-dark dark:text-ternary-light">
-							{aboutEcole.EcoleInfo.ObjectivesDetails}
-						</p>
-					</div>
-
-					{/* Single project technologies */}
-					<div className="mb-7">
-						<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
-							{aboutEcole.EcoleInfo.Technologies[0].title}
-						</p>
-						<p className="font-general-regular text-primary-dark dark:text-ternary-light">
-							{aboutEcole.EcoleInfo.Technologies[0].techs.join(
-								', '
-							)}
-						</p>
-					</div>
-
 					{/* Single project social sharing */}
 					<div>
 						<p className="font-general-regular text-2xl font-semibold text-ternary-dark dark:text-ternary-light mb-2">
