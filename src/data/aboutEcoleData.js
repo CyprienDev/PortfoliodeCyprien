@@ -5,7 +5,7 @@ import Image3 from "../images/utec_exterieur_cantine.jpg";
 
 export const aboutEcoleData = {
     EcoleHeader: {
-        title: "L'\nUTEC"
+        title: "L'UTEC"
     },
     EcoleImages: [
         {
@@ -25,7 +25,7 @@ export const aboutEcoleData = {
         },
     ],
     EcoleInfo: {
-        ClientHeading: 'Client',
+        ClientHeading: 'Les Formations',
         CompanyInfo: [
             {
                 id: 2,
@@ -38,7 +38,7 @@ export const aboutEcoleData = {
                 details: 'https://www.utec77.fr',
             },
         ],
-        ProjectDetailsHeading: 'A propos de L\'UTEC :',
+        ProjectDetailsHeading: 'À propos de L\'UTEC :',
         ProjectDetails: [
             {
                 id: 1,
@@ -53,12 +53,12 @@ export const aboutEcoleData = {
             {
                 id: 3,
                 details:
-                    'L\'UTEC propose des Formation en Apprentissage pour les jeunes de 16 à 29 ans, des Formations continue pour des salariés, des createurs d\'entreprise, ainsi que des demandeurs d\'emploi.'
+                    'L\'UTEC propose des Formation en Apprentissage pour les jeunes de 16 à 29 ans, des Formations continue pour des salariés, des créateurs d\'entreprise, ainsi que des demandeurs d\'emploi.'
             },
             {
                 id: 4,
                 details:
-                    'Egalement L\'UTEC dispose de 4 sites dont Avon - Fontainebleau, Emerainville - Marne-la-Vallée, Melun, Provins. Leurs Batiments sont accesibles aux perssones en situation de handicap et plusieurs places de parking sont réservées.',
+                    'Egalement L\'UTEC dispose de quatres sites dont Avon - Fontainebleau, Emerainville - Marne-la-Vallée, Melun, Provins. Leurs Batiments sont accessibles aux personnes en situation de handicap et plusieurs places de parking sont réservées.',
             },
             {
                 id:5,
@@ -67,37 +67,37 @@ export const aboutEcoleData = {
 
             },
         ],
-        SocialSharingHeading: 'Share This',
+        SocialSharingHeading: 'Les Réseaux Sociaux',
         SocialSharing: [
             {
                 id: 1,
                 name: 'Twitter',
                 icon: <FiTwitter />,
-                url: 'https://twitter.com/realstoman',
+                url: 'https://twitter.com/Utec_77',
             },
             {
                 id: 2,
                 name: 'Instagram',
                 icon: <FiInstagram />,
-                url: 'https://instagram.com/realstoman',
+                url: 'https://www.instagram.com/utec77/?hl=fr',
             },
             {
                 id: 3,
                 name: 'Facebook',
                 icon: <FiFacebook />,
-                url: 'https://facebook.com/',
+                url: 'https://www.facebook.com/utec77.formations/',
             },
             {
                 id: 4,
                 name: 'LinkedIn',
                 icon: <FiLinkedin />,
-                url: 'https://linkedin.com/',
+                url: 'https://www.linkedin.com/school/utec77-cfa-utec/',
             },
             {
                 id: 5,
                 name: 'Youtube',
                 icon: <FiYoutube />,
-                url: 'https://www.youtube.com/c/StomanStudio',
+                url: 'https://www.youtube.com/channel/UCZQw_vJQhs7Z2GXjOPOH2Jw',
             },
         ],
     },

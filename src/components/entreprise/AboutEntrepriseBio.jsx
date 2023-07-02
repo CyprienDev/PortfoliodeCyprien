@@ -1,6 +1,5 @@
 import { useContext } from 'react';
 import AboutEntrepriseContext from "../../context/AboutEntrepriseContext";
-import {FiClock, FiTag} from "react-icons/fi";
 
 const AboutEntrepriseBio = () => {
     const { aboutEntreprise } = useContext(AboutEntrepriseContext);

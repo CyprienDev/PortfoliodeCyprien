@@ -30,7 +30,7 @@ export const aboutEntrepriseData = {
             {
                 id: 2,
                 title: 'Activités',
-                details: "Moteurs d\n'Avions, Equipements aéronautiques, Avionique, Defense et sécurité, Service et support, Spatial, R&D",
+                details: "Moteurs d'Avions, Equipements aéronautiques, Avionique, Defense et sécurité, Service et support, Spatial, R&D",
             },
             {
                 id: 3,
