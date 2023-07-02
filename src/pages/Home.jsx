@@ -7,9 +7,9 @@ const Home = () => {
 		<div className="container mx-auto">
 			<AppBanner></AppBanner>
 
-			{/*<ProjectsProvider>*/}
-			{/*	<ProjectsGrid></ProjectsGrid>*/}
-			{/*</ProjectsProvider>*/}
+			<ProjectsProvider>
+				<ProjectsGrid></ProjectsGrid>
+			</ProjectsProvider>
 		</div>
 	);
 };

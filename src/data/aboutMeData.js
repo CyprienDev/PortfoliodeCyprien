@@ -15,7 +15,7 @@ export const aboutMeData = {
 				id: 1,
 				details:
 					'\n' +
-					'Je m\'appelle Bourré Cyprien et j\'ai actuellement 19 ans, étant passionnée d\'informatique et plus précisément du développement logiciel c\'est donc en toute logique que j\'ai décidé d\'effectuer actuellement un BTS SIO (SLAM) au sein de L\'UTEC en contrat d\'apprentissage en travaillant pour le groupe Safran.'
+					'Je m\'appelle Bourré Cyprien et j\'ai actuellement 19 ans. Étant passionné d\'informatique et plus précisément du développement logiciel, c\'est donc en toute logique que j\'ai décidé d\'effectuer un BTS SIO (SLAM) au sein de L\'UTEC en contrat d\'apprentissage pour le groupe Safran.'
 			},
 		],
 		Technologies: [
