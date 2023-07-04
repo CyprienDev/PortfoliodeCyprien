@@ -18,7 +18,7 @@ const AboutEcoleBio = () => {
 						<div className="mb-10 sm:mb-0" key={project.id}>
 							<img
 								src={project.img}
-								className="rounded-xl cursor-pointer shadow-lg sm:shadow-none"
+								className="rounded-xl shadow-lg sm:shadow-none"
 								alt={project.title}
 								key={project.id}
 							/>
@@ -42,19 +42,9 @@ const AboutEcoleBio = () => {
 											className="font-general-regular text-ternary-dark dark:text-ternary-light"
 											key={info.id}
 										>
-											<span>{info.title}: </span>
-											<a
-												href="https://stoman.me"
-												className={
-													info.title === 'Website' ||
-													info.title === 'Phone'
-														? 'hover:underline hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer duration-300'
-														: ''
-												}
-												aria-label="Project Website and Phone"
-											>
+											<p>
 												{info.details}
-											</a>
+											</p>
 										</li>
 									);
 								}
