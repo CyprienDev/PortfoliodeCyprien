@@ -55,7 +55,7 @@ export const aboutMeData = {
 				date :
 					'Novembre 2021 – Fevrier 2022',
 				entreprise:
-					'Channel',
+					'CHANEL',
 
 				intitule:
 					'PFMP Service IT Division Mode',
