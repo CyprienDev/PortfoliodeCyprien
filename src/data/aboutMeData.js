@@ -102,7 +102,7 @@ export const aboutMeData = {
 
 			},
 		],
-		MesFormationsHeading: 'Mes Experiences :',
+		MesFormationsHeading: 'Mes Formations :',
 		FormationsDetails: [
 			{
 				id: 1,
