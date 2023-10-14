@@ -2,6 +2,9 @@ import {FiFacebook, FiInstagram, FiLinkedin, FiTwitter, FiYoutube} from "react-i
 import Image1 from "../images/utec_logo.jpg";
 import Image2 from "../images/utec_exterieur.jpg";
 import Image3 from "../images/utec_exterieur_cantine.jpg";
+import Image4 from "../images/nombre_app_entre_part_utec.png";
+import Image5 from "../images/formation_utec.png";
+import Image6 from "../images/utec_chiffres_cles.png";
 
 export const aboutEcoleData = {
     EcoleHeader: {
@@ -43,28 +46,18 @@ export const aboutEcoleData = {
             {
                 id: 1,
                 details:
-                    'L\'UTEC est une école de la CCI Seine-et-Marne, pluridisciplinaire, multi-niveaux, au service des jeunes, des familles et des entreprises, qui forme chaque année prés de 2000 jeunes en apprentissage en relation étroite avec ses 1500 partenaires.',
+                    'L\'UTEC est une école de la CCI Seine-et-Marne, pluridisciplinaire, multi-niveaux, au service des jeunes, des familles et des entreprises, qui forme chaque année prés de 2000 jeunes en apprentissage.',
+                img: Image4,
             },
             {
                 id: 2,
                 details:
-                    'Avec près de 40 ans d’expérience dans l’apprentissage, elle est organisée autour d’une équipe pédagogique composée essentiellement de professionnels animés par une même vocation : faire partager la passion de leur métier.',
+                    'L\'UTEC propose des Formation en Apprentissage pour les jeunes de 16 à 29 ans, des Formations continue pour des salariés, des créateurs d\'entreprise, ainsi que des demandeurs d\'emploi.',
+                img: Image5
             },
             {
                 id: 3,
-                details:
-                    'L\'UTEC propose des Formation en Apprentissage pour les jeunes de 16 à 29 ans, des Formations continue pour des salariés, des créateurs d\'entreprise, ainsi que des demandeurs d\'emploi.'
-            },
-            {
-                id: 4,
-                details:
-                    'Egalement L\'UTEC dispose de quatres sites dont Avon - Fontainebleau, Emerainville - Marne-la-Vallée, Melun, Provins. Leurs Batiments sont accessibles aux personnes en situation de handicap et plusieurs places de parking sont réservées.',
-            },
-            {
-                id:5,
-                details:
-                    'Pour Finir L’UTEC propose des formations diplômantes en apprentissage et en formation continue dans 9 pôles d’expertise dont la Comptabilité - Gestion - RH, Vente - Commerce - Accueil, Marketing, Service et Arts de la Table Barman, Tourisme - Hébergement, Cuisine - Traiteur - Pâtisserie, Informatique - Réseaux - Cybersécurité, Digital - Numérique - Fibre Optique, Management.'
-
+                img: Image6
             },
         ],
         SocialSharingHeading: 'Les Réseaux Sociaux',

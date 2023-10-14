@@ -1,24 +1,13 @@
 // Import images
-import Image1 from '../images/ui-project-1.jpg';
-import Image2 from '../images/web-project-2.jpg';
-import Image3 from '../images/mobile-project-2.jpg';
-import Image4 from '../images/mobile-project-1.jpg';
-import Image5 from '../images/web-project-1.jpg';
-import Image6 from '../images/ui-project-2.jpg';
-// Import icons
-import {
-	FiFacebook,
-	FiInstagram,
-	FiLinkedin,
-	FiTwitter,
-	FiYoutube,
-} from 'react-icons/fi';
+import Image1 from '../images/livres_cyberlib.png';
+import Image2 from '../images/cyberlib_accueil.png';
+import Image3 from '../images/recherche_cyberlib.png';
 
 export const singleProjectData = {
 	ProjectHeader: {
-		title: 'Project Management UI',
-		publishDate: 'Jul 26, 2021',
-		tags: 'UI / Frontend',
+		title: 'Projet Site Web CyberLibrary',
+		publishDate: '21 Juin, 2023',
+		tags: 'Bootstrap / Frontend',
 	},
 	ProjectImages: [
 		{
@@ -38,101 +27,55 @@ export const singleProjectData = {
 		},
 	],
 	ProjectInfo: {
-		ClientHeading: 'Client',
+		ClientHeading: 'Client :',
 		CompanyInfo: [
 			{
 				id: 1,
 				title: 'Nom',
-				details: 'EGI School',
+				details: 'CyberLibrary',
 			},
 			{
 				id: 2,
 				title: 'Services',
-				details: 'Formation',
-			},
-			{
-				id: 3,
-				title: 'Site',
-				details: 'https://egi-school.fr',
-			},
+				details: 'Bibliothéque en ligne',
+			}
 		],
 		Technologies: [
 			{
-				title: 'Tools & Technologies',
+				title: 'Technologies Utilisées :',
 				techs: [
-					'HTML',
 					'CSS',
-					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
+					'SCSS',
+					'HTML',
+					'EJS',
+					'JavaScript'
 				],
 			},
 		],
-		ProjectDetailsHeading: 'Challenge',
+		ProjectDetailsHeading: 'Objectifs du Projet :',
 		ProjectDetails: [
 			{
 				id: 1,
 				details:
-					'A venir',
+					'Le but de ce projet a été de créer un site web de bibliothéque en ligne ou l\'on peut réserver des livres a distance disponible sur plusieurs sites dont Fontainbleau, Versailles, Paris.',
 			},
 		],
-		SocialSharingHeading: 'Share This',
-		SocialSharing: [
+		ProjectDifficultyHeading: 'Difficultés lors du Projet :',
+		ProjectDifficulty: [
 			{
 				id: 1,
-				name: 'Twitter',
-				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
+				detailsdifficulty:
+					'Les différentes diffucltés rencontré lors de ce projet on été notamment les delais laissé ainsi que notre niveau de connaisance.',
 			},
-			{
-				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
-			},
-			{
-				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
-				name: 'LinkedIn',
-				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
-			},
-			{
-				id: 5,
-				name: 'Youtube',
-				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
-			},
-		],
+		]
 	},
 	RelatedProject: {
-		title: 'Related Projects',
+		title: 'Projets Réalisés',
 		Projects: [
 			{
 				id: 1,
-				title: 'Mobile UI',
-				img: Image4,
-			},
-			{
-				id: 2,
-				title: 'Web Application',
-				img: Image5,
-			},
-			{
-				id: 3,
-				title: 'UI Design',
-				img: Image6,
-			},
-			{
-				id: 4,
-				title: 'Kabul Mobile App UI',
-				img: Image3,
+				title: 'Projet Site Web CyberLibrary',
+				img: Image2,
 			},
 		],
 	},

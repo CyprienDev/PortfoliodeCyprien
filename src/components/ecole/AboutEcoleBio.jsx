@@ -89,6 +89,7 @@ const AboutEcoleBio = () => {
 								className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
 							>
 								{details.details}
+								<img src={details.img} alt={details.details}/>
 							</p>
 						);
 					})}

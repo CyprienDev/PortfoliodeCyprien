@@ -1,17 +1,17 @@
-import AboutEntrepriseBio from '../components/entreprise_presentation/AboutEntrepriseBio';
-import { AboutEntrepriseProvider } from '../context/AboutEntrepriseContext';
+import AboutMeInEntrepriseBio from '../components/entreprise/AboutMeInEntreprise';
+import { AboutMeInEntrepriseProvider } from '../context/AboutMeInEntrepriseContext';
 import { motion } from 'framer-motion';
 
-const Entreprise = () => {
+const MeInEntreprise = () => {
     return (
-        <AboutEntrepriseProvider>
+        <AboutMeInEntrepriseProvider>
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, delay: 1 }}
                 exit={{ opacity: 0 }}
                 className="container mx-auto"
             >
-                <AboutEntrepriseBio />
+                <AboutMeInEntrepriseBio />
             </motion.div>
 
             {/** Counter without paddings */}
@@ -22,8 +22,8 @@ const Entreprise = () => {
             >
 
             </motion.div>
-        </AboutEntrepriseProvider>
+        </AboutMeInEntrepriseProvider>
     );
 };
 
-export default Entreprise;
+export default MeInEntreprise;

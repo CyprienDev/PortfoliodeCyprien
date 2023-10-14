@@ -1,6 +1,13 @@
 
 import { useContext } from 'react';
 import AboutMeContext from '../../context/AboutMeContext';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import '../../css/main.css';
+import safran  from "../../images/plane.png";
+import chanel  from "../../images/perfume.png";
+import labo  from "../../images/microscope.png";
+import coop  from "../../images/cooperation.png";
+
 
 
 const AboutMeBio = () => {
@@ -93,39 +100,118 @@ const AboutMeBio = () => {
 							</p>
 						);
 					})}
+
 					<p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
 						{aboutMe.aboutMeInfo.MesExperiencesHeading}
 					</p>
-					{aboutMe.aboutMeInfo.ExperienceDetails.map((details) => {
-						return (
-							<p
-								key={details.id}
-								className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-							>
-								<div>
-									{details.date}
-									<div>
-										{details.entreprise}
-										<div>
-											{details.intitule}
-											<div>
-												<li>
-													{details.mission1}
-												</li>
-												<li>
-													{details.mission2}
-												</li>
-												<li>
-													{details.mission3}
-												</li>
-											</div>
-										</div>
-									</div>
-								</div>
+					<VerticalTimeline
 
-							</p>
-						);
-					})}
+						className={"text-primary-dark dark:text-primary-light"}>
+
+						<VerticalTimelineElement
+							className="vertical-timeline-element--work text-primary-dark dark:text-primary-light"
+							contentStyle={{ background: 'rgb(196, 230, 255)', color: '#000000' }}
+							contentArrowStyle={{ borderRight: '7px solid  rgb(59 130 246 / 0.5)' }}
+							date="Septembre 2022 - Août 2024"
+							icon={<img src={safran} alt="Safran" />}
+						>
+
+
+							<h3 className="vertical-timeline-element-title ">
+								{'Safran Aircraft Engines'}
+								<h4 className="vertical-timeline-element-subtitle">
+									{'Apprentissage en tant que Développeur'}
+									<p>
+										<li>
+											{'Réalisation d\'une WebApp afin de lire des fichiers et intérpreter des fichiers avec des formats spécifique. Réalisation en python en utilisant la librairie de Dash Plotly et DashBootstrap Components '}
+										</li>
+									</p>
+								</h4>
+							</h3>
+						</VerticalTimelineElement>
+						<VerticalTimelineElement
+							className="vertical-timeline-element--work"
+							contentStyle={{ background: 'rgb(196, 230, 255)', color: '#000000' }}
+							contentArrowStyle={{ borderRight: '7px solid  rgb(59 130 246 / 0.5)' }}
+							date="Novembre 2021 – Fevrier 2022"
+							icon={<img src={chanel} alt="CHANEL" />}
+						>
+
+
+							<h3 className="vertical-timeline-element-title">
+								{'CHANEL'}
+								<h4 className="vertical-timeline-element-subtitle">
+									{'PFMP Service IT Division Mode'}
+									<p>
+										<li>
+											{'Chargé d\'un projet de création d\'une WebApp'}
+										</li>
+										<li>
+											{'Création de UserStory'}
+										</li>
+										<li>
+											{'Initiation à la RFID'}
+										</li>
+									</p>
+								</h4>
+							</h3>
+						</VerticalTimelineElement>
+						<VerticalTimelineElement
+							className="vertical-timeline-element--work"
+							contentStyle={{ background: 'rgb(196, 230, 255)', color: '#000000' }}
+							contentArrowStyle={{ borderRight: '7px solid  rgb(59 130 246 / 0.5)' }}
+							date="Mars 2021"
+							icon={<img src={labo} alt="PILEJE" />}
+						>
+
+
+							<h3 className="vertical-timeline-element-title">
+								{'Laboratoire PILEJE'}
+								<h4 className="vertical-timeline-element-subtitle">
+									{'PFMP Service Informatique'}
+									<p>
+										<li>
+											{'Création d\'une ISO windows 10 descendue pour une configuration optimisée des postes'}
+										</li>
+										<li>
+											{'Maintenance de postes pour diverses manipulations telles que la récupération de donnés et la créations de sauvegardes'}
+										</li>
+										<li>
+											{'Modifications de droits et créations de droits dans l\'Active Directory'}
+										</li>
+									</p>
+								</h4>
+							</h3>
+						</VerticalTimelineElement>
+						<VerticalTimelineElement
+							className="vertical-timeline-element--work"
+							contentStyle={{ background: 'rgb(196, 230, 255)', color: '#000000' }}
+							contentArrowStyle={{ borderRight: '7px solid  rgb(59 130 246 / 0.5)' }}
+							date="Janvier 2020"
+								icon={<img src={coop} alt="Ligartis" />}
+						>
+
+
+							<h3 className="vertical-timeline-element-title">
+								{'Ligartis'}
+								<h4 className="vertical-timeline-element-subtitle">
+									{'PFMP Service Informatique'}
+									<p>
+										<li>
+											{'Présentation du fonctionnement des serveurs'}
+										</li>
+										<li>
+											{'Initiation à l\'utilisation d\'un PC sous Windows Server'}
+										</li>
+										<li>
+											{'Configuration de matériels pour préparation de commande (étiqueteuse, scanner industriel, logiciel de préparation de commande, lecteur code barre industriel)'}
+										</li>
+									</p>
+								</h4>
+							</h3>
+						</VerticalTimelineElement>
+					</VerticalTimeline>
+
 					<p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
 						{aboutMe.aboutMeInfo.MesFormationsHeading}
 					</p>

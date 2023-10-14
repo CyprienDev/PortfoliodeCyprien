@@ -1,16 +1,13 @@
 import {FiFacebook, FiInstagram, FiLinkedin, FiTwitter, FiYoutube} from "react-icons/fi";
-import Image1 from "../images/safran_logo.jpg";
-import Image2 from "../images/safran_chaine_assemblage.jpg";
-import Image3 from "../images/safran_villaroche.jpg";
-import Image4 from "../images/collaborateurs_safran.png"
-import Image5 from "../images/chiffres_r&d_safran.png"
-import Image6 from "../images/engagement_safran.png"
-import Image7 from "../images/expertises_safran.png"
+import Image1 from "../images/m88_safran.jpg";
+import Image2 from "../images/materiaux_safran.jpeg";
+import Image3 from "../images/dev_safran.jpg";
 
 
-export const aboutEntrepriseData = {
+
+export const aboutMeInEntrepriseData = {
     EntrepriseHeader: {
-        title: 'Safran'
+        title: 'Mon rôle et service chez Safran'
     },
     EntrepriseImages: [
         {
@@ -43,36 +40,25 @@ export const aboutEntrepriseData = {
                 details: 'https://www.safran-group.com/fr',
             },
         ],
-        ObjectivesHeading: 'Objectifs',
-        ObjectivesDetails:
-            '\n' +
-            'Les objectifs de Safran incluent l\'innovation technologique, l\'excellence opérationnelle, la durabilité environnementale, la croissance rentable, la sécurité des produits et des opérations, ainsi que le développement des talents.',
-
-        ProjectDetailsHeading: 'A propos de Safran :',
+        ProjectDetailsHeading: 'Mon Travail au Sein de Safran :',
         ProjectDetails: [
             {
                 id: 1,
                 details:
                     '\n' +
-                    'Safran est une entreprise française de renommée mondiale dans le secteur de l\'aérospatiale, de la défense et de la sécurité. L\'histoire de Safran remonte à ses racines historiques, avec la création de Snecma en 1945, spécialisée dans les moteurs d\'avions et les propulseurs. Au fil des décennies, Snecma a été impliquée dans des projets emblématiques, tels que le développement du moteur à réaction Snecma Atar pour l\'avion de combat Mirage.\n' +
+                    'Je suis Cyprien Apprenti développeur chez Safran Aircraft Engines à Villaroche au sein du service de la division Matérieaux et Procédés, mon service est de réaliser différents scripts ou applications en fonction des différentes demande, cela peut aller d\'un simple script par exemple:(pour effectuer un tri de fichier), jusqu\'a l\'application qui permettra a més collegues de simplifier une tache\n' +
                     '\n',
-                img: Image4,
-            },
+            }
+        ],
+        ProjectDetailsHeadingService: 'Mon Service:',
+        ProjectDetailsService: [
             {
-                id: 2,
-                details:
-                    'En 2005, Snecma a fusionné avec Sagem, une société française spécialisée dans l\'électronique de défense, pour former Safran. Cette fusion stratégique a permis à Safran de renforcer son expertise et d\'élargir sa gamme de produits et services. Elle a également marqué un tournant dans l\'histoire de l\'entreprise, lui permettant de devenir un acteur mondial majeur.\n' +
+                id: 1,
+                detailsservice:
+                    '\n' +
+                    'Le Service dans lequel je suis s\'appele YQS3 est se trouve au sein de la division Matérieaux et Procédés. Au sein du service il y\'a trois pôles différents dont le pôle informatique auquel j\'appartien, le pôle statistiques, le pôle courbes. Le Service est composée  d\'une vigtaine de persones.'+
                     '\n',
-                img: Image5,
-            },
-            {
-                id: 3,
-                img: Image6,
-            },
-            {
-                id: 4,
-                img: Image7,
-            },
+            }
         ],
         SocialSharingHeading: 'Les Réseaux Sociaux',
         SocialSharing: [
