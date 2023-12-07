@@ -28,7 +28,7 @@ const Competences = () => {
 						<img src={htmllogo} className="photo" alt="" />
 
 						<StarRatings
-							rating={2.500}
+							rating={4.0}
 							starDimension="40px"
 							starSpacing="15px"
 							starRatedColor={'rgb(59,130,246)'}
@@ -44,7 +44,7 @@ const Competences = () => {
 							<img src={csslogo} className="photo" alt="" />
 
 							<StarRatings
-								rating={2.603}
+								rating={4}
 								starDimension="40px"
 								starSpacing="15px"
 								starRatedColor={'rgb(59,130,246)'}
@@ -59,7 +59,7 @@ const Competences = () => {
 							<img src={pythonlogo} className="photo"  alt="" />
 
 							<StarRatings
-								rating={3.403}
+								rating={3.5}
 								starDimension="40px"
 								starSpacing="15px"
 								starRatedColor={'rgb(59,130,246)'}
@@ -69,7 +69,7 @@ const Competences = () => {
 							<img src={jslogo} className="photo"  alt="" />
 
 							<StarRatings
-								rating={3.403}
+								rating={3}
 								starDimension="40px"
 								starSpacing="15px"
 								starRatedColor={'rgb(59,130,246)'}
@@ -84,7 +84,7 @@ const Competences = () => {
 							<img src={reactlogo} className="photo" alt="" />
 
 							<StarRatings
-								rating={2.703}
+								rating={4}
 								starDimension="40px"
 								starSpacing="15px"
 								starRatedColor={'rgb(59,130,246)'}
@@ -94,7 +94,7 @@ const Competences = () => {
 							<img src={flasklogo} className="photo" alt="" />
 
 							<StarRatings
-								rating={2.103}
+								rating={2}
 								starDimension="40px"
 								starSpacing="15px"
 								starRatedColor={'rgb(59,130,246)'}

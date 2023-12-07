@@ -3,6 +3,7 @@ import {
 	FiLinkedin,
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
+import AppFooterMentionsLegales from "./AppFooterMentionsLegales";
 
 const socialLinks = [
 	{
@@ -41,7 +42,7 @@ const AppFooter = () => {
 						))}
 					</ul>
 				</div>
-
+				<AppFooterMentionsLegales />
 				<AppFooterCopyright />
 			</div>
 		</div>

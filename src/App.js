@@ -12,10 +12,10 @@ const Ecole = lazy(() => import('./pages/AboutEcole'));
 const Entreprise = lazy(() => import('./pages/AboutEntreprise'));
 const MeInEntreprise = lazy(() => import('./pages/AboutMeInEntreprise'));
 const Competences = lazy(() => import('./pages/Competences'));
-const Contact = lazy(() => import('./pages/Contact'));
 const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
 const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
+const MentionsLegales = lazy(() => import('./pages/AboutMentionsLegales'));
 
 
 function App() {
@@ -40,7 +40,7 @@ function App() {
 							<Route path="entreprise_présentation" element={<Entreprise />} />
 							<Route path="entreprise" element={<MeInEntreprise />} />
 							<Route path="competences" element={<Competences />} />
-							<Route path="contact" element={<Contact />} />
+							<Route path="mentions_legales" element={<MentionsLegales />} />
 						</Routes>
 					</Suspense>
 					<AppFooter />
