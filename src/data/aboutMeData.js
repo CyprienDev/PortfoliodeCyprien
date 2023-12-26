@@ -20,7 +20,7 @@ export const aboutMeData = {
 		],
 		Technologies: [
 			{
-				title: 'Mes Compétences',
+				title: 'Mes Compétences Clés',
 				techs: [
 					'HTML',
 					'CSS',

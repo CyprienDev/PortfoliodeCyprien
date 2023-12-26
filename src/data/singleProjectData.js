@@ -2,6 +2,7 @@
 import Image1 from '../images/livres_cyberlib.png';
 import Image2 from '../images/cyberlib_accueil.png';
 import Image3 from '../images/recherche_cyberlib.png';
+import ImageFiline from '../images/filine-accueil.png';
 
 export const singleProjectData = {
 	ProjectHeader: {
@@ -73,9 +74,9 @@ export const singleProjectData = {
 		title: 'Projets Réalisés',
 		Projects: [
 			{
-				id: 1,
-				title: 'Projet Site Web CyberLibrary',
-				img: Image2,
+				id: 2,
+				title: 'Projet Site Web / Web App Filine',
+				img: ImageFiline,
 			},
 		],
 	},

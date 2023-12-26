@@ -40,14 +40,15 @@ export const aboutMeInEntrepriseData = {
                 details: 'https://www.safran-group.com/fr',
             },
         ],
-        ProjectDetailsHeading: 'Mon Travail au Sein de Safran :',
+        ProjectDetailsHeading: 'Mon Rôle au Sein de Safran :',
         ProjectDetails: [
             {
                 id: 1,
                 details:
                     '\n' +
-                    'Je suis Cyprien Apprenti développeur chez Safran Aircraft Engines à Villaroche au sein du service de la division Matérieaux et Procédés, mon service est de réaliser différents scripts ou applications en fonction des différentes demande, cela peut aller d\'un simple script par exemple:(pour effectuer un tri de fichier), jusqu\'a l\'application qui permettra a més collegues de simplifier une tache\n' +
-                    '\n',
+                    '- Réaliser différents scripts ou applications en fonctions du besoins actuelles définies par mes collégues.' +
+                    '\n' +
+                    '- Réaliser différents requettes SQL fonction des besoins actuelles.'
             }
         ],
         ProjectDetailsHeadingService: 'Mon Service:',

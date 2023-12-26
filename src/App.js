@@ -15,6 +15,7 @@ const Competences = lazy(() => import('./pages/Competences'));
 const Home = lazy(() => import('./pages/Home'));
 const Projects = lazy(() => import('./pages/Projects'));
 const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
+const ProjectFiline = lazy(() => import('./pages/ProjectFiline.jsx'));
 const MentionsLegales = lazy(() => import('./pages/AboutMentionsLegales'));
 
 
@@ -32,6 +33,10 @@ function App() {
 							<Route
 								path="projects/single-project"
 								element={<ProjectSingle />}
+							/>
+							<Route
+								path="projects/filine-project"
+								element={<ProjectFiline />}
 							/>
 
 

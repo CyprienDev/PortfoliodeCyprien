@@ -81,19 +81,6 @@ const AboutMeInEntreprise = () => {
                 {/*  Single project right section */}
                 <div className="w-full sm:w-2/3 text-left mt-10 sm:mt-0">
                     <p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
-                        {aboutMeInEntreprise.EntrepriseInfo.ProjectDetailsHeading}
-                    </p>
-                    {aboutMeInEntreprise.EntrepriseInfo.ProjectDetails.map((details) => {
-                        return (
-                            <p
-                                key={details.id}
-                                className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
-                            >
-                                {details.details}
-                            </p>
-                        );
-                    })}
-                    <p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
                         {aboutMeInEntreprise.EntrepriseInfo.ProjectDetailsHeadingService}
                     </p>
                     {aboutMeInEntreprise.EntrepriseInfo.ProjectDetailsService.map((details) => {
@@ -103,6 +90,19 @@ const AboutMeInEntreprise = () => {
                                 className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
                             >
                                 {details.detailsservice}
+                            </p>
+                        );
+                    })}
+                    <p className="font-general-regular text-primary-dark dark:text-primary-light text-2xl font-bold mb-7">
+                        {aboutMeInEntreprise.EntrepriseInfo.ProjectDetailsHeading}
+                    </p>
+                    {aboutMeInEntreprise.EntrepriseInfo.ProjectDetails.map((details) => {
+                        return (
+                            <p
+                                key={details.id}
+                                className="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
+                            >
+                                {details.details}
                             </p>
                         );
                     })}
